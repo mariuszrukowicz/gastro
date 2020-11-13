@@ -1,0 +1,22 @@
+.main ul {
+  list-style-type: none;
+}
+.main nav {
+  padding: 0 30px 30px;
+}
+nav.main a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+  transition: 0.2s;
+}
+nav.main a:hover {
+  transform: translateX(20px);
+}
+nav.main a.active {
+  border-left: 10px gray solid;
+  transform: translate(0);
+}
